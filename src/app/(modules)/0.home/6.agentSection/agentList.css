@@ -1,0 +1,27 @@
+/* برای تنظیمات اسکرول */
+.scrollable-div {
+  height: 600px;
+  overflow-y: auto;
+  scrollbar-width: thin; /* تنظیم باریک بودن اسکرول در فایرفاکس */
+  scrollbar-color: #ff6347 #f0f0f0; /* تنظیم رنگ اسکرول و پس‌زمینه اسکرول */
+}
+
+/* برای مرورگرهای WebKit (Chrome, Safari, Edge) */
+.scrollable-div::-webkit-scrollbar {
+  width: 10px; /* عرض اسکرول */
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+  background: #f0f0f0; /* پس‌زمینه اسکرول */
+  border-radius: 10px; /* گوشه‌های گرد برای تراک اسکرول */
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+  background-color: #ff6347; /* رنگ thumb */
+  border-radius: 10px; /* گوشه‌های گرد */
+  border: 2px solid #f0f0f0; /* حاشیه برای thumb */
+}
+
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+  background-color: #ff4500; /* رنگ thumb وقتی موس روی آن باشد */
+}

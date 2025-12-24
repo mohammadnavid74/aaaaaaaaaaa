@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mayan-group.com
+
+# Sitemaps
+Sitemap: https://mayan-group.com/sitemap.xml

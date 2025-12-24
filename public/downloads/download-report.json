@@ -1,0 +1,157 @@
+{
+  "timestamp": "2025-12-08T09:04:10.874Z",
+  "total": 36,
+  "successful": 1,
+  "failed": 35,
+  "skipped": 0,
+  "details": {
+    "successful": [
+      {
+        "id": "80b08a72-361d-4c8c-8e42-cca9a9820e90",
+        "size": 418310
+      }
+    ],
+    "failed": [
+      {
+        "id": "46a35485-3bd4-40d4-a008-df234aaa8ee4",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "d8490213-abdb-4364-8696-4fdfcf4d2f75",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "2cf5cb2b-6e21-4a1f-99c6-1795177e523f",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "fb145dd6-09c3-4ce8-8881-ecff7637dcd6",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "ff1838b5-ef71-453c-b9dc-edfb73613c2e",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "381b2e8d-3577-47ca-9c74-40a8a9da3cb9",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "31a7e03e-5013-402c-8b3a-66a76010490c",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "56b45c49-dc82-459f-93da-8cd4ff8d500a",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "9d51e299-a042-48bb-9b1e-a9276dd925d7",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "0ad0d9af-1709-409d-8996-d13bee395082",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "52727d1f-6d15-4d1b-8069-9c60c8350d43",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "27612f3f-e0bf-41f2-b7c8-a142fa059a0a",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "e417e765-6853-44e0-951c-083ba1d26e51",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "6a768f3b-a72e-46f1-a29c-478df386a5ba",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "2d95c7b7-537c-4361-bb06-4b70cf5b5c6a",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "330b023c-468e-41f7-8fa4-d92e6fb82033",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "cc6d241e-c670-4bb2-b568-06fe4db7648d",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "c8c3cd03-1f90-424c-8bb9-eecc7210e654",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "7d54519b-e30c-4811-83c4-40b098d3faa2",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "033a76e5-e88a-4819-9f14-901da2d4495e",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "d6915be2-20cc-4770-a287-d6f4a20dfd30",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "557eba23-8dee-4763-b4f0-b18ad52c8154",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "7233e229-cebd-4cdc-ab62-19ea0576db7c",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "2f6d68bd-eec6-4dec-a00c-2d23a81a249e",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "451937a5-1292-42a5-9b69-d8762cf32800",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "2d04622c-7591-4eb2-88bb-e90c626d1349",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "f654c9c2-4d88-4f2f-9594-9d2965d69f1d",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "e265e4b2-1da4-4e40-8a42-136477fcaa64",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "e70cfe02-93cd-4b52-988d-bc61c591284e",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "deeff9f2-27e3-4c74-a271-c6d1ffb7d258",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "cbc7ec12-a866-45a9-9468-ceb7b3806d8d",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "2a6bca28-9810-46ad-9202-8f84deb9a650",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "5e89978d-af67-4a28-8830-972d84fea511",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "530d52b0-a9c2-4d2f-841f-c635548d643a",
+        "error": "Request failed with status code 400"
+      },
+      {
+        "id": "039025db-d09c-461b-86fb-3e8c2d3e809f",
+        "error": "Request failed with status code 400"
+      }
+    ]
+  }
+}

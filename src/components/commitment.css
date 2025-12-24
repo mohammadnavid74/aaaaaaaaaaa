@@ -1,0 +1,42 @@
+.main-color {
+  color: #c52f33 !important;
+}
+.expr-box {
+  display: inline-block;
+  border: 5px solid #fff;
+  padding: 30px 30px 30px 60px;
+}
+
+.expr-box {
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+
+.expr-box:after {
+  content: "";
+  position: absolute;
+  top: 186px;
+  left: 64px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: #c52f33;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.commit h3 {
+  font-size: 36px;
+}
+
+.commit p {
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ddd;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}

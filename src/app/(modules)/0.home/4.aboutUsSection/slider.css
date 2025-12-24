@@ -1,0 +1,52 @@
+.embla {
+  --slide-height: 19rem;
+  --slide-spacing: 1rem;
+  --slide-size: 20%;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+.embla__slide {
+  transform: translate3d(0, 0, 0);
+  min-width: 0;
+}
+
+.slider-container {
+  width: 80%; /* عرض اسلایدر */
+  max-width: 900px; /* حداکثر عرض اسلایدر */
+  height: 400px; /* ارتفاع اسلایدر */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  width: calc(100% * 9); /* 100% برای هر تصویر * تعداد تصاویر */
+  height: 100%;
+  animation: slideAnimation 5s infinite alternate; /* زمان، تکرار، و حرکت رفت و برگشتی */
+}
+
+.slider .imggg {
+  width: 100%; /* هر تصویر 100% عرض اسلایدر-کانتینر را اشغال کند */
+  height: 100%;
+  object-fit: cover; /* پر کردن فضای تصویر بدون بهم ریختگی نسبت ابعاد */
+}
+
+/* Keyframes برای انیمیشن حرکت اسلایدر */
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0); /* شروع از تصویر اول */
+  }
+  50% {
+    transform: translateX(-100%); /* حرکت به تصویر دوم */
+  }
+  100% {
+    transform: translateX(0); /* بازگشت به تصویر اول (به دلیل alternate) */
+  }
+}

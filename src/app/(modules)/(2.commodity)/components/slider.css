@@ -1,0 +1,26 @@
+/* فایل styles.css */
+
+.embla {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* عرض کامل */
+}
+
+.embla__container {
+  display: flex;
+
+  transition: transform 0.3s ease;
+}
+
+.embla__slide {
+  flex: 0 0 100%; /* هر اسلاید به اندازه 100% عرض پنجره نمایش داده می‌شود */
+  display: flex;
+
+  background-color: #ccc;
+  height: 100%;
+  font-size: 24px;
+  color: #fff;
+}
+.embla__slide:not(:last-child) {
+  margin-right: 88px; /* فقط روی اسلایدهای غیر از آخرین اعمال می‌شود */
+}
