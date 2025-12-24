@@ -2,11 +2,12 @@
 // import CmsCompanyDrawer from "@/components/map/representation2";
 // import { useWebsiteStore } from "@/core/store/useWebsiteStore";
 import dynamic from "next/dynamic";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import CmsCompanyDrawer from "../CmsCompanyDrawer";
 import { CMSCompanySummaryDto } from "@/types/dtos/cmsCompany/CmsCompanyDataDto";
 import { getWebsiteHomeSection } from "@/lib/api/services/mainPage.service";
 import { WebsiteHomeSectionDto } from "@/types/dtos/home/0-WebsiteHomeSectionDto";
+import ExtraPage from "@/components/extraPage/extraPage";
 // import { async } from '../../../../lib/api/services/mainPage.service';
 const CmsCompanyMap = dynamic(() => import("@/app/(modules)/(1.cmsCompany)/CmsCompany"), { ssr: false });
 // const CmsCompanyDrawer = dynamic(
@@ -36,6 +37,7 @@ export default function Page() {
     <div className="flex flex-col justify-center items-center">
       {/* <HeaderComponent></HeaderComponent> */}
       <div className="absolute z-[39]  h-[70px] w-full"></div>
+      <Suspense fallback={<ExtraPage status={0}></ExtraPage>}>
       <CmsCompanyMap
         updateSharedValue={updateSharedValue}
         cmsCompaniesData={cmsCompanies || []}
@@ -50,6 +52,7 @@ export default function Page() {
           data={cmsCompany}
         ></Neshan>
       )} */}
+      </Suspense>
     </div>
   );
 }

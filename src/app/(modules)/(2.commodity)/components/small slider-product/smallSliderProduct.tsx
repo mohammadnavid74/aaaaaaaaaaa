@@ -1,9 +1,9 @@
 "use client";
 import useEmblaCarousel from "embla-carousel-react";
 import { useState } from "react";
-import { ICommodity } from "@/core/interface/ICommodity";
 import { Image, Link } from "@heroui/react";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import { ICommodity } from "@/types/dtos/commodity/ICommodity";
 
 interface props {
   commodityDataChildrenById: ICommodity;

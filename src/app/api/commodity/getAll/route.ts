@@ -1,10 +1,6 @@
-import { NextResponse } from 'next/server';
-import { commodities } from '../getByCode/[code]/route';
+import { commodities } from "@/types/commo";
+import { NextResponse } from "next/server";
 
 export async function GET() {
-
-
-
-
   return NextResponse.json(commodities);
 }
