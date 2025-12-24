@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://mayan-group.com</loc><lastmod>2025-12-08T09:05:10.045Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
+<url><loc>https://mayan-group.com/cmsCompany</loc><lastmod>2025-12-24T11:54:34.868Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://mayan-group.com</loc><lastmod>2025-12-24T11:54:34.870Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
+<url><loc>https://mayan-group.com/commodity</loc><lastmod>2025-12-24T11:54:34.870Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

@@ -31,7 +31,7 @@
     "leaflet-polylinedecorator": "^1.6.0",
     "lucide-react": "^0.475.0",
     "motion": "^12.17.0",
-    "next": "15.1.7",
+    "next": "15.1.11",
     "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
     "react-countdown": "^2.3.6",
